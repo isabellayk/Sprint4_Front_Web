@@ -1,9 +1,11 @@
+import Header from './components/Header';
 
-
-const App = () => {
+function App()  {
   return (
     <>
-      
+      <body className='bg-[#0A1123]'>
+        <Header />
+      </body>
     </>
   )
 }
