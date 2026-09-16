@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Mikalea';
+  src: url('/public/fonts/Mikalea.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('/public/fonts/BebasKai.otf') format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rambla';
+  src: url('./assets/fonts/Rambla-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+
+@theme {
+  --font-sans: 'Rambla', sans-serif;
+  --font-bebas: 'Bebas', sans-serif;
+  --font-mikalea: 'Mikalea', sans-serif;
+  --color-navy: #0A1123;
+  --color-light-gray: #EAE9EE;
+}
