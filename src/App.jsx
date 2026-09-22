@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SecaoProblema from './components/SecaoProblema';
 import SecaoSolucao from './components/SecaoSolucao';
+import SecaoPub from './components/SecaoPub'
 import '../src/index.css';
 
 function App()  {
@@ -15,6 +16,8 @@ function App()  {
         <SecaoProblema />
 
         <SecaoSolucao />
+
+        <SecaoPub />
       </body>
     </>
   )
