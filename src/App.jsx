@@ -4,6 +4,7 @@ import SecaoProblema from './components/SecaoProblema';
 import SecaoSolucao from './components/SecaoSolucao';
 import SecaoPub from './components/SecaoPub'
 import SecaoGaleria from './components/SecaoGaleria';
+import SecaoEquipe from './components/SecaoEquipe';
 import '../src/index.css';
 
 function App()  {
@@ -21,6 +22,8 @@ function App()  {
         <SecaoPub />
 
         <SecaoGaleria />
+
+        <SecaoEquipe />
       </body>
     </>
   )
