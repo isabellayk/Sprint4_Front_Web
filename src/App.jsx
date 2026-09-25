@@ -5,12 +5,13 @@ import SecaoSolucao from './components/SecaoSolucao';
 import SecaoPub from './components/SecaoPub'
 import SecaoGaleria from './components/SecaoGaleria';
 import SecaoEquipe from './components/SecaoEquipe';
+import Footer from './components/Footer'
 import '../src/index.css';
 
 function App()  {
   return (
     <>
-      <body className='bg-[#0A1123]'>
+      <div className='bg-[#0A1123] min-h-screen'>
         <Header />
 
         <Hero />
@@ -24,7 +25,10 @@ function App()  {
         <SecaoGaleria />
 
         <SecaoEquipe />
-      </body>
+
+        <Footer />
+
+      </div>
     </>
   )
 }
