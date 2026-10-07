@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SecaoProblema from './components/SecaoProblema';
@@ -11,24 +12,28 @@ import '../src/index.css';
 function App()  {
   return (
     <>
-      <div className='bg-[#0A1123] min-h-screen'>
-        <Header />
+      <Router>
+        <div className='bg-[#0A1123] min-h-screen flex flex-col justify-between'>
+          <Header />
 
-        <Hero />
+          <Routes>
+              <Route path="/" element={<Hero />} />
+
+              <Route path="/SecaoProblema" element={<SecaoProblema />} />
+
+              <Route path="/SecaoSolucao" element={<SecaoSolucao />} />
+
+              <Route path="/SecaoPub" element={<SecaoPub />}/>
+
+              <Route path="/SecaoGaleria" element={<SecaoGaleria />}/>
+
+              <Route path="/SecaoEquipe" element={<SecaoEquipe />}/>
+          </Routes>
+          <Footer />
+
+        </div>
         
-        <SecaoProblema />
-
-        <SecaoSolucao />
-
-        <SecaoPub />
-
-        <SecaoGaleria />
-
-        <SecaoEquipe />
-
-        <Footer />
-
-      </div>
+        </Router>
     </>
   )
 }

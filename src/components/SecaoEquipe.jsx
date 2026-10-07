@@ -4,7 +4,7 @@ function SecaoEquipe(){
   return (
     <>
       
-        <section className="w-full bg-[#EAE9EE] py-[5rem] px-[5%]" id="equipe">
+        <section className="w-full bg-[#EAE9EE] py-[10rem] px-[5%]" id="equipe">
             <div className="max-w-[1200px] mx-auto my-0">
                 
                 

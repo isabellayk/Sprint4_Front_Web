@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const [formData, setFormData] = useState({
@@ -95,7 +96,7 @@ function Footer() {
           </form>
         </div>
 
-        {/* Informações da Marca */}
+       
         <div className="flex-none md:w-[380px] flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <div className="mb-5">
             <img src="./src/assets/Logo.png" alt="Logo UltraFrame" className="max-w-[220px] h-auto" />
@@ -105,11 +106,12 @@ function Footer() {
             Transformando a câmera do seu celular em uma assistente de estudos.
           </p>
 
-          <div className="flex flex-wrap gap-5 justify-center md:justify-start">
-            <a href="#solucao" className="text-sm opacity-80 hover:opacity-100">A Solução</a>
-            <a href="#publico-alvo" className="text-sm opacity-80 hover:opacity-100">Público-Alvo</a>
-            <a href="#galeria" className="text-sm opacity-80 hover:opacity-100">Galeria</a>
-            <a href="#equipe" className="text-sm opacity-80 hover:opacity-100">Equipe</a>
+          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+            <Link to="/SecaoProblema" className="text-sm opacity-80 hover:opacity-100">O Problema</Link>
+            <Link to="/SecaoSolucao" className="text-sm opacity-80 hover:opacity-100">A Solução</Link>
+            <Link to="/SecaoPub" className="text-sm opacity-80 hover:opacity-100">Público-Alvo</Link>
+            <Link to="/SecaoGaleria" className="text-sm opacity-80 hover:opacity-100">Galeria</Link>
+            <Link to="/SecaoEquipe" className="text-sm opacity-80 hover:opacity-100">Equipe</Link>
           </div>
         </div>
 

@@ -74,7 +74,7 @@ function SecaoSolucao() {
   };
 
   return (
-    <section className="py-16 px-6 md:px-16 text-[#EAE9EE]" id="secao-solucao">
+    <section className="py-[10rem] px-6 md:px-16 text-[#EAE9EE]" id="secao-solucao">
       <div className="max-w-7xl mx-auto flex flex-col min-[993px]:flex-row gap-12 items-start justify-between">
         <div className="w-full min-[993px]:w-1/3 flex flex-col gap-6 flex-none">
           <h2 className="font-bebas text-5xl md:text-6xl leading-none">

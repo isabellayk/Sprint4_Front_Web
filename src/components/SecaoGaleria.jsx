@@ -4,7 +4,7 @@ function SecaoGaleria(){
   return (
     <>
       
-     <section className="w-full bg-[#0A1123] py-[5rem] px-[5%]" id="galeria">
+     <section className="w-full bg-[#0A1123] py-[10rem] px-[5%]" id="galeria">
   <div className="max-w-[1100px] mx-auto my-0">
     
    

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Hero() {
   return (
@@ -36,12 +37,12 @@ function Hero() {
           O Modo Estudante guia sua captura em tempo real e organiza suas matérias automaticamente com Inteligência Artificial.
         </p>
 
-        <a
-          href="#solucao"
+        <Link 
+          to="/SecaoSolucao"
           className="font-sans bg-[#EAE9EE] text-[#0A1123] font-bold text-lg px-8 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:bg-white inline-block"
         >
           Descubra a Solução
-        </a>
+        </Link>
       </div>
 
       <img

@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
+
 
 function Header() {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,15 +11,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
-       <header className="absolute top-0 left-0 w-full z-[1000] flex justify-between items-center px-[5%] py-6 box-border">
+       <header className="bg-[#0A1123] absolute top-0 left-0 w-full z-[1000] flex justify-between items-center px-[5%] py-6 box-border">
       
-      <a href="./index.html" className="block">
+      <Link to="/" className="block">
         <img
           src="./src/assets/Logo.png"
           alt="Logo UltraFrame"
           className="w-full max-w-[180px] md:max-w-[280px] h-auto block"
         />
-      </a>
+      </Link>
 
       
       <button
@@ -44,31 +46,32 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           gap-6 md:gap-8 
           transition-all duration-200
         `}
-      >
-        <a
-          href="#secao-solucao"
+      > 
+        <Link to="/SecaoProblema"
+          className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"
+        >O Problema
+        </Link>
+
+        <Link to="/SecaoSolucao"
           className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"
         >
           A Solução
-        </a>
-        <a
-          href="#publico-alvo"
+        </Link>
+        <Link to="/SecaoPub"
           className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"
         >
           Público-Alvo
-        </a>
-        <a
-          href="#galeria"
+        </Link>
+        <Link to="/SecaoGaleria"
           className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"
         >
           Galeria
-        </a>
-        <a
-          href="#equipe"
+        </Link>
+        <Link to="/SecaoEquipe"
           className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"
         >
           Equipe
-        </a>
+        </Link>
         <a
           href="#contato"
           className="text-[#EAE9EE] text-lg no-underline whitespace-nowrap opacity-100 hover:opacity-80 transition-opacity duration-200 font-sans"

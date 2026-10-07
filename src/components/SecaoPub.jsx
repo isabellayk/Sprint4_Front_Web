@@ -4,7 +4,7 @@ function SecaoPub() {
   return (
     <>
       
-        <section className="w-full bg-[#0A1123] relative overflow-hidden py-12 px-6 md:px-12" id="publico-alvo">
+        <section className="w-full bg-[#0A1123] relative overflow-hidden py-[10rem] px-6 md:px-12" id="publico-alvo">
   <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row justify-between items-stretch lg:items-center gap-12 lg:gap-[3rem]">
 
 
