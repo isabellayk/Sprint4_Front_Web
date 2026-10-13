@@ -1,5 +1,9 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import pastaTop from '../assets/pasta-top.png';
+import pastaMid from '../assets/pasta-mid.png';
+import pastaBot from '../assets/pasta-bot.png';
+import celularHand from '../assets/celular-hand.png';
 
 function Hero() {
   return (
@@ -7,17 +11,17 @@ function Hero() {
       <section className="relative min-h-screen flex items-center justify-center pt-32 pb-16 px-8 md:pt-32 md:pb-16 pt-28 overflow-hidden min-h-0 md:min-h-screen">
      
       <img
-        src="./src/assets/pasta-top.png"
+        src={pastaTop}
         alt="Imagem hero pasta de arquivos"
         className="hidden md:block absolute pointer-events-none z-10 top-[25%] xl:top-[30%] -left-5 w-[160px] xl:w-[220px] h-auto"
       />
       <img
-        src="./src/assets/pasta-mid.png"
+        src={pastaMid}
         alt="Imagem hero pasta de arquivos"
         className="hidden md:block absolute pointer-events-none z-10 top-[58%] xl:top-[55%] -left-[10px] w-[180px] xl:w-[250px] h-auto"
       />
       <img
-        src="./src/assets/pasta-bot.png"
+        src={pastaBot}
         alt="Imagem hero pasta de arquivos"
         className="hidden md:block absolute pointer-events-none z-10 bottom-[2%] left-[10%] xl:left-[18%] w-[150px] xl:w-[200px] h-auto"
       />
@@ -46,7 +50,7 @@ function Hero() {
       </div>
 
       <img
-        src="./src/assets/celular-hand.png"
+        src={celularHand}
         alt="Imagem hero mão segurando celular"
         className="hidden md:block absolute pointer-events-none z-10 bottom-0 right-0 w-[240px] xl:w-[320px] h-auto"
       />

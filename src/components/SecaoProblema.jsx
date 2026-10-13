@@ -1,4 +1,4 @@
-
+import estudante from '../assets/estudante-foto.png';
 function SecaoProblema() {
   return (
     <>
@@ -8,7 +8,7 @@ function SecaoProblema() {
         <div className="max-w-7xl m-auto flex items-center justify-between gap-(<4rem>)min-[901px]:flex-row min-[901px]:gap-16">
     
         <div className="flex-<1> max-w-lg w-full max-w-full min-[901px]:max-w-[500px]">
-            <img src="./src/assets/estudante-foto.png" 
+            <img src={estudante}
             className="w-full h-auto object-cover rounded-[28px] block" alt="Estudante tirando foto da lousa com o celular" />
         </div>
 

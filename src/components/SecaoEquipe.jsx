@@ -1,4 +1,8 @@
-import React from 'react'
+import eduarda from '../assets/eduarda.jpeg';
+import isabella from '../assets/isabella.jpeg';
+import marcella from '../assets/marcella.jpeg';
+import mariana from '../assets/mariana.jpeg';
+
 
 function SecaoEquipe(){
   return (
@@ -18,7 +22,7 @@ function SecaoEquipe(){
                 
                 <article className="bg-[#0A1123] rounded-[35px] p-6 sm:py-[2rem] sm:px-[1.2rem] flex flex-col items-center text-center text-[#EAE9EE]">
                     <div className="w-[150px] h-[150px] rounded-full overflow-hidden mb-[1.5rem]">
-                    <img src="./src/assets/eduarda.jpeg" alt="Eduarda Soares" className="w-full h-full object-cover" />
+                    <img src={eduarda} alt="Eduarda Soares" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="font-mikalea text-[1.5rem] font-normal mb-[1rem] whitespace-nowrap">Eduarda Soares</h3>
                     <p className="font-sans text-[0.9rem] leading-[1.45] opacity-90">
@@ -30,7 +34,7 @@ function SecaoEquipe(){
                 
                 <article className="bg-[#0A1123] rounded-[35px] p-6 sm:py-[2rem] sm:px-[1.2rem] flex flex-col items-center text-center text-[#EAE9EE]">
                     <div className="w-[150px] h-[150px] rounded-full overflow-hidden mb-[1.5rem]">
-                    <img src="./src/assets/isabella.jpeg" alt="Isabella Yogui" className="w-full h-full object-cover" />
+                    <img src={isabella} alt="Isabella Yogui" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="font-mikalea text-[1.5rem] font-normal mb-[1rem] whitespace-nowrap">Isabella Yogui</h3>
                     <p className="font-sans text-[0.9rem] leading-[1.45] opacity-90">
@@ -42,7 +46,7 @@ function SecaoEquipe(){
                 
                 <article className="bg-[#0A1123] rounded-[35px] p-6 sm:py-[2rem] sm:px-[1.2rem] flex flex-col items-center text-center text-[#EAE9EE]">
                     <div className="w-[150px] h-[150px] rounded-full overflow-hidden mb-[1.5rem]">
-                    <img src="./src/assets/marcella.jpeg" alt="Marcella Pinheiro" className="w-full h-full object-cover" />
+                    <img src={marcella} alt="Marcella Pinheiro" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="font-mikalea text-[1.5rem] font-normal mb-[1rem] whitespace-nowrap">Marcella Pinheiro</h3>
                     <p className="font-sans text-[0.9rem] leading-[1.45] opacity-90">
@@ -54,7 +58,7 @@ function SecaoEquipe(){
                 
                 <article className="bg-[#0A1123] rounded-[35px] p-6 sm:py-[2rem] sm:px-[1.2rem] flex flex-col items-center text-center text-[#EAE9EE]">
                     <div className="w-[150px] h-[150px] rounded-full overflow-hidden mb-[1.5rem]">
-                    <img src="./src/assets/mariana.jpeg" alt="Mariana Malagutti" className="w-full h-full object-cover" />
+                    <img src={mariana} alt="Mariana Malagutti" className="w-full h-full object-cover" />
                     </div>
                     <h3 className="font-mikalea text-[1.5rem] font-normal mb-[1rem] whitespace-nowrap">Mariana Malagutti</h3>
                     <p className="font-sans text-[0.9rem] leading-[1.45] opacity-90">

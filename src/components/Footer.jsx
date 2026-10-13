@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import logo from '../assets/logo.png';
 
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -138,7 +139,7 @@ function Footer() {
       
         <div className="flex-none md:w-[380px] flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <div className="mb-5">
-            <img src="./src/assets/Logo.png" alt="Logo UltraFrame" className="max-w-[220px] h-auto" />
+            <img src={logo} alt="Logo UltraFrame" className="max-w-[220px] h-auto" />
           </div>
           <p className="font-sans text-[0.95rem] leading-relaxed opacity-80 mb-8">
             O registro acadêmico sem ruídos, borrões ou desorganização. 

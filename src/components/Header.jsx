@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 
 function Header() {
@@ -15,7 +16,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       
       <Link to="/" className="block">
         <img
-          src="./src/assets/Logo.png"
+          src={logo}
           alt="Logo UltraFrame"
           className="w-full max-w-[180px] md:max-w-[280px] h-auto block"
         />

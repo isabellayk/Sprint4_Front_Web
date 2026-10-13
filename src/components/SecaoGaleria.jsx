@@ -1,4 +1,8 @@
-import React from 'react'
+import galeria1 from '../assets/galeria1.png';
+import galeria2 from '../assets/galeria2.png';
+import galeria3 from '../assets/galeria3.png';
+import galeria4 from '../assets/galeria4.png';
+import galeria5 from '../assets/card4.png';
 
 function SecaoGaleria(){
   return (
@@ -16,26 +20,26 @@ function SecaoGaleria(){
     
 
       <div className="rounded-[20px] overflow-hidden w-full h-[220px] md:h-full col-span-1 md:col-span-2 md:row-start-1">
-        <img src="./src/assets/galeria1.png" alt="Modo Estudante desativado e ativado" className="w-full h-full object-cover" />
+        <img src={galeria1} alt="Modo Estudante desativado e ativado" className="w-full h-full object-cover" />
       </div>
 
       <div className="rounded-[20px] overflow-hidden w-full h-[220px] md:h-full col-span-1 md:col-start-3 md:row-start-1">
-        <img src="./src/assets/galeria2.png" alt="Foto Galeria 2" className="w-full h-full object-cover" />
+        <img src={galeria2} alt="Foto Galeria 2" className="w-full h-full object-cover" />
       </div>
 
      
       <div className="rounded-[20px] overflow-hidden w-full h-[220px] md:h-full col-span-1 md:col-start-1 md:row-start-2">
-        <img src="./src/assets/galeria3.png" alt="Foto Galeria 3" className="w-full h-full object-cover" />
+        <img src={galeria3} alt="Foto Galeria 3" className="w-full h-full object-cover" />
       </div>
 
    
       <div className="rounded-[20px] overflow-hidden w-full h-[220px] md:h-full col-span-1 md:col-start-2 md:row-start-2">
-        <img src="./src/assets/galeria4.png" alt="Foto Galeria 4" className="w-full h-full object-cover" />
+        <img src={galeria4} alt="Foto Galeria 4" className="w-full h-full object-cover" />
       </div>
 
 
       <div className="rounded-[20px] overflow-hidden w-full h-[220px] md:h-full col-span-1 md:col-start-3 md:row-start-2">
-        <img src="./src/assets/card4.png" alt="Foto Dashboard" className="w-full h-full object-cover" />
+        <img src={galeria5} alt="Foto Dashboard" className="w-full h-full object-cover" />
       </div>
 
     </div>

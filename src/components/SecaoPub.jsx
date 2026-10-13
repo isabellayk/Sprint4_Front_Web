@@ -1,4 +1,6 @@
-import React from 'react'
+import pastaTop2 from '../assets/pasta-top2.png';
+import pastaMid2 from '../assets/pasta-mid2.png';
+import pastaBot2 from '../assets/pasta-bot2.png';
 
 function SecaoPub() {
   return (
@@ -47,19 +49,19 @@ function SecaoPub() {
     
   
     <img 
-        src="./src/assets/pasta-top2.png" 
+        src={pastaTop2}
         alt="Imagem pasta de arquivos" 
         className="w-full max-w-[180px] lg:max-w-[220px] h-auto object-contain relative -rotate-6 z-3" 
     />
     
     <img 
-        src="./src/assets/pasta-mid2.png" 
+        src={pastaMid2}
         alt="Imagem pasta de arquivos" 
         className="w-full max-w-[180px] lg:max-w-[220px] h-auto object-contain relative rotate-3 lg:-mt-[40px] lg:ml-[20px] z-2" 
     />
     
     <img 
-        src="./src/assets/pasta-bot2.png" 
+        src={pastaBot2}
         alt="Imagem pasta de arquivos" 
         className="w-full max-w-[180px] lg:max-w-[220px] h-auto object-contain relative -rotate-3 lg:-mt-[30px] lg:-ml-[20px] z-1" 
     />
