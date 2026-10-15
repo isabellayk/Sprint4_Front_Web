@@ -23,20 +23,15 @@ Antes de iniciar, certifique-se de ter o **Node.js** instalado em sua máquina.
    
    git clone [https://github.com/isabellayk/Sprint4_Front_Web.git](https://github.com/isabellayk/Sprint4_Front_Web.git)
 
-```
 
 2. **Acesse a pasta do projeto:**
 
 cd Sprint4_Front_Web
 
-```
-
 
 3. **Instale todas as dependências necessárias:**
 
 npm install
-
-```
 
 
 
@@ -48,12 +43,10 @@ npm install
 
 npm run dev
 
-```
 
 
 2. **Abra o navegador** no endereço exibido no terminal.
 
----
 
 ## 🖥️ Servidores Back-end
 
