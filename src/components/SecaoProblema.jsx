@@ -4,7 +4,7 @@ function SecaoProblema() {
     <>
       
         
-    <section className="bg-[#EAE9EE] px-[5%] py-[10rem] rounded-4xl w-full min-[901px]:py-32 min-[901px]:px-16 " id="solucao">
+          <section className="bg-[#898CAB] px-[5%] py-[10rem] rounded-4xl w-full min-[901px]:py-32 min-[901px]:px-16 " id="solucao">
         <div className="max-w-7xl m-auto flex items-center justify-between gap-(<4rem>)min-[901px]:flex-row min-[901px]:gap-16">
     
         <div className="flex-<1> max-w-lg w-full max-w-full min-[901px]:max-w-[500px]">
