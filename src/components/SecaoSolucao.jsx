@@ -6,7 +6,7 @@ import card4 from '../assets/card4.png';
 const cardsData = [
   {
     id: 1,
-    imagem: {card1},
+    imagem: card1,
     alt: 'Guiamento em Tempo Real',
     titulo: 'Guiamento em Tempo Real',
     descricao:
@@ -14,7 +14,7 @@ const cardsData = [
   },
   {
     id: 2,
-    imagem: {card2},
+    imagem: card2,
     alt: 'Tratamento de Imagem',
     titulo: 'Tratamento Automático',
     descricao:
@@ -22,7 +22,7 @@ const cardsData = [
   },
   {
     id: 3,
-    imagem: {card3},
+    imagem: card3,
     alt: 'Organização de galeria por IA',
     titulo: 'Categorização Inteligente',
     descricao:
@@ -30,7 +30,7 @@ const cardsData = [
   },
   {
     id: 4,
-    imagem: {card4},
+    imagem: card4,
     alt: 'Dashboard',
     titulo: 'Gestão Transparente',
     descricao:
