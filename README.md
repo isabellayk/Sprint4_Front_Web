@@ -20,9 +20,9 @@ O **UltraFrame** é uma solução criada para transformar a câmera do celular e
 Antes de iniciar, certifique-se de ter o **Node.js** instalado em sua máquina.
 
 1. **Clone o repositório para o seu ambiente local:**
-   
+   '''
    git clone [https://github.com/isabellayk/Sprint4_Front_Web.git](https://github.com/isabellayk/Sprint4_Front_Web.git)
-
+   '''
 
 2. **Acesse a pasta do projeto:**
 
