@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
